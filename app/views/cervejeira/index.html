@@ -1,0 +1,24 @@
+<div class="card-deck mb-3 text-center">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="card mb-4 shadow-sm col-4 vertical-center mt-5 p-0">
+
+        <div class="card-header">
+          <h4 class="my-0 font-weight-normal">Minha Cervejeira</h4>
+        </div>
+
+        <div class="card-body">
+          <h4 class="card-title pricing-card-title">
+            Qual a temperatura que você deseja a sua cerveja?
+          </h4>
+
+          <%= form_tag get_cerveja_path do %>
+            <%= text_field_tag :temperatura, nil, class: 'form-control mb-5', placeholder: "-4º", :required => true %>
+            <%= submit_tag "Servir Cerveja", class: "btn btn-lg btn-block btn-primary mt-5" %>
+          <% end %>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>

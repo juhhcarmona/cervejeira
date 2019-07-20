@@ -1,0 +1,12 @@
+example_id                                                         | status | run_time        |
+------------------------------------------------------------------ | ------ | --------------- |
+./spec/features/controllers/cervejeira_controller_spec.rb[1:1:1:1] | passed | 0.45642 seconds |
+./spec/features/controllers/cervejeira_controller_spec.rb[1:1:1:2] | passed | 0.02683 seconds |
+./spec/features/controllers/cervejeira_controller_spec.rb[1:1:1:3] | passed | 0.01986 seconds |
+./spec/features/controllers/cervejeira_controller_spec.rb[1:1:2:1] | passed | 0.0251 seconds  |
+./spec/features/controllers/cervejeira_controller_spec.rb[1:1:2:2] | passed | 0.02091 seconds |
+./spec/features/controllers/cervejeira_controller_spec.rb[1:1:2:3] | passed | 0.02181 seconds |
+./spec/features/controllers/cervejeira_controller_spec.rb[1:2:1:1] | passed | 0.01249 seconds |
+./spec/features/controllers/cervejeira_controller_spec.rb[1:2:1:2] | passed | 0.01401 seconds |
+./spec/features/controllers/cervejeira_controller_spec.rb[1:2:2:1] | passed | 0.01505 seconds |
+./spec/features/controllers/cervejeira_controller_spec.rb[1:2:2:2] | passed | 0.02439 seconds |

@@ -1,0 +1,27 @@
+<div class="card-deck mb-3 text-center">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="card mb-4 shadow-sm col-4 vertical-center mt-5 p-0">
+
+        <div class="card-header">
+          <h4 class="my-0 font-weight-normal">Minha Cervejeira</h4>
+        </div>
+
+        <div class="card-body">
+          <h4 class="card-title pricing-card-title mb-5">
+            Aqui está a melhor cerveja para <%= @temperatura %> ºC
+          </h4>
+
+          <% if @estilo.present? %>
+             <h2><%= @estilo %></h2>
+          <% else %>
+            <h3><%= @error %></h3>
+          <% end %>
+
+          <%= link_to "Voltar", root_path %>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>
