@@ -33,7 +33,7 @@ gem 'bootstrap-sass'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
-gem 'httparty', '~> 0.13.1'
+gem 'httparty', '~> 0.21.0'
 
 group :development, :test do
   gem "database_cleaner"
